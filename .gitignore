@@ -1,0 +1,32 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+data/
+models/
+outputs/
+*.pkl
+node_modules/
+dist/
+*.docx
+
+# Frontend build output
+frontend/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and large datasets
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Python and frontend generated files
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
